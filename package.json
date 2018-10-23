@@ -26,7 +26,7 @@
   "author": "Felix Kling",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "babel-parser": "git://github.com/jbrown215/babel-parser.git",
+    "@babel/parser": "git://github.com/jbrown215/babel-parser.git",
     "babel-plugin-transform-flow-strip-types": "^6.8.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-1": "^6.5.0",
