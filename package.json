@@ -43,7 +43,7 @@
     "nomnom": "^1.8.1",
     "private": "~0.1.5",
     "recast": "git://github.com/jbrown215/recast.git",
-    "source-map": "~0.6.1"
+    "source-map": "~0.6.1",
     "temp": "^0.8.1",
     "write-file-atomic": "^1.2.0"
   },
