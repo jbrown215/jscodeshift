@@ -20,6 +20,6 @@ const options = {
   types: true,
 };
 
-exports.parse = function parse(source, options) {
+exports.parse = function parse(source) {
   return flowParser.parse(source, options);
 };
