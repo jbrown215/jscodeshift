@@ -10,7 +10,7 @@
 
 'use strict';
 
-const flowParser = require('flow-parser'); // TODO: replace with flow-parser when v0.84.0 lands
+const flowParser = require('flow-parser');
 
 const defaultOptions = {
   esproposal_class_instance_fields: true,
