@@ -10,7 +10,7 @@
 
 'use strict';
 
-const flowParser = require('@babel/parser'); // TODO: replace with flow-parser when v0.84.0 lands
+const flowParser = require('flow-parser');
 
 const options = {
   esproposal_class_instance_fields: true,
@@ -21,7 +21,5 @@ const options = {
 };
 
 exports.parse = function parse(source, options) {
-  options = require("recast/parsers/_babel_options.js")(options);
-  options.plugins.push("jsx", "flow");
   return flowParser.parse(source, options);
 };
