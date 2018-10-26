@@ -20,7 +20,6 @@ const defaultOptions = {
   esproposal_optional_chaining: true,
   esproposal_nullish_coalescing: true,
   tokens: true,
-  types: true,
 };
 
 /**
